@@ -1,12 +1,16 @@
 *{
-	margin: 1px;
-	padding:1px;
+	margin: 0;
+	padding:0;
+}
+
+*, *:before, *:after {
+	box-sizing: border-box;
 }
 div{
 	border: solid 1px red;
 	border-radius: 2px;
 }
-.header{
+header{
 	background-color: purple;
 	height: 30%;
 	position: relative;
@@ -15,9 +19,9 @@ div{
 	background-color: orange;
 	float: left;
 	height: 80%;
-	width: 13%;
+	width: 15%;
 	padding-top: 50px;
-	padding-bottom: 400px;
+	padding-bottom: 480px;
 }
 .right{
 	background-color: #cccccc;
@@ -26,10 +30,14 @@ div{
 	padding-left: 14px;
 	padding-bottom: 25px;
 }
-.footer{
+footer{
 	background-color: yellow;
-	height: 20%;
+	height: 30px;
 	clear: both;
+}
+
+footer h4{
+	text-align: center;
 }
 .menu{
 	display: block;
@@ -47,7 +55,8 @@ div{
 	font-family: Verdana;
 	font-size: 25px;
 	cursor: pointer;
-	padding: 20px;	
+	padding: 20px;
+	padding-left: 30px;	
 }
 .menu-header{
 	display: inline-block;
@@ -68,31 +77,34 @@ div{
 	font-family: Verdana;
 	font-size: 20px;
 
-}
-
-#head{
-	display: block;
-	height: 15%;
-	width: 30%;
-	border: solid 1px black;
-	border-radius: 5px;
-	background-color: #ffffff;
-}
-img{
+}	
+.img-art{
 	display: block;
 	padding: -10px;
 	border-radius: 50%; 
 	height: 150px;
 }
-h1{
+.logo{
+	display: inline-block;
+	width: 220px;
+}
+.logo img{
+	display: block;
+	width: 100%;
+	border: solid 1px black;
+	border-radius: 5px;
+	background-color: #ffffff;
+}
+h1, h2{
 	text-align: center;
 	text-decoration: underline;
 }
-h4{
-	text-align: right;
+h1{
+	color: rgb(7, 94, 28);
 }
 article{
 	margin-top:5px;
+	padding: 20px;
 	padding-top: 10px; 
 	border: solid 2px green;
 	background-color: #ffffff;
