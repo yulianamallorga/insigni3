@@ -6,6 +6,7 @@
 *, *:before, *:after {
 	box-sizing: border-box;
 }
+
 div{
 	border: solid 1px red;
 	border-radius: 2px;
@@ -21,7 +22,9 @@ header{
 	height: 80%;
 	width: 15%;
 	padding-top: 50px;
-	padding-bottom: 480px;
+	padding-left: 30px;
+	padding-right: 20px;
+	padding-bottom: 481px;
 }
 .right{
 	background-color: #cccccc;
@@ -48,10 +51,11 @@ footer h4{
 	margin-top: 20px;
 	margin-bottom: 20px;
 	padding: 10px;
+	padding-right: -20px;
 
 }
 .menu:hover{
-	background-color: red;
+	background-color: rgb(226, 27, 27);
 	font-family: Verdana;
 	font-size: 25px;
 	cursor: pointer;
@@ -83,6 +87,8 @@ footer h4{
 	padding: -10px;
 	border-radius: 50%; 
 	height: 150px;
+	width: 150px;
+	margin: auto;
 }
 .logo{
 	display: inline-block;
@@ -94,6 +100,22 @@ footer h4{
 	border: solid 1px black;
 	border-radius: 5px;
 	background-color: #ffffff;
+}
+.icons{
+position: absolute;
+	text-decoration: underline;
+	padding: 10px;
+	top:2px;
+	right: 5px;
+}
+.icons a{
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 18px;
+}
+.icons li{
+	display: inline-block;
+	padding-right: 10px;
 }
 h1, h2{
 	text-align: center;
@@ -115,4 +137,5 @@ article:hover{
 }
 ul li{
 	list-style: none;
+	text-align: center;
 }
