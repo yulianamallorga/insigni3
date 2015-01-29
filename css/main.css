@@ -117,6 +117,9 @@ position: absolute;
 	display: inline-block;
 	padding-right: 10px;
 }
+.icons span{
+	font-family: 'Open Sans', sans-serif;
+}
 h1, h2{
 	text-align: center;
 	text-decoration: underline;
